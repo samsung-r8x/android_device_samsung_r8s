@@ -41,8 +41,8 @@ void vendor_load_properties()
 {
     std::string bootloader = GetProperty("ro.bootloader", "");
 
-    if (bootloader.find("G980F") == 0) {
-        set_ro_product_prop("model", "SM-G980F");
+    if (bootloader.find("G780F") == 0) {
+        set_ro_product_prop("model", "SM-G780F");
     }
 
     std::string device = GetProperty("ro.product.device", "");

@@ -17,20 +17,20 @@
 include device/samsung/exynos990-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/x1s/BoardConfigVendor.mk
+include vendor/samsung/r8s/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/x1s
+DEVICE_PATH := device/samsung/r8s
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
-TARGET_OTA_ASSERT_DEVICE := x1s
+TARGET_OTA_ASSERT_DEVICE := r8s
 
 ## Display
 TARGET_SCREEN_DENSITY := 480
 
 ## Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_x1s
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_r8s
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9830-x1sxxx_defconfig
+TARGET_KERNEL_CONFIG := exynos9830-r8sxxx_defconfig

@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from x1s device
-$(call inherit-product, device/samsung/x1s/device.mk)
+$(call inherit-product, device/samsung/r8s/device.mk)
 
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 3200
@@ -16,10 +16,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_x1s
-PRODUCT_DEVICE := x1s
+PRODUCT_NAME := aosp_r8s
+PRODUCT_DEVICE := r8s
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G981B
+PRODUCT_MODEL := SM-G780F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 
