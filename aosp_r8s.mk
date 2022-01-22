@@ -10,7 +10,7 @@ TARGET_SCREEN_HEIGHT := 3200
 TARGET_SCREEN_WIDTH := 1440
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
