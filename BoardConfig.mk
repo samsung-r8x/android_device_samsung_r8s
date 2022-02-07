@@ -36,4 +36,4 @@ TARGET_SCREEN_DENSITY := 480
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_r8s
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9830-r8sxxx_defconfig
+TARGET_KERNEL_CONFIG := exynos9830-r8slte_defconfig
