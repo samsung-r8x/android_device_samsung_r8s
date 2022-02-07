@@ -21,6 +21,8 @@ include vendor/samsung/r8s/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/r8s
 
+PRODUCT_PLATFORM := exynos990
+
 # PRODUCT_COPY_FILES directives.
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
